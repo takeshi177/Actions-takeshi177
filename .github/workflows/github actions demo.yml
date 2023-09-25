@@ -20,5 +20,5 @@ jobs:
       - run: | 
           echo "event name: ${{ github.event_name }}"
           echo "branch: ${{ github.ref }}"
-      - uses: actions/chekout@v4.1
+      - uses: actions/chekout@v4.1.0
       - run: tree
